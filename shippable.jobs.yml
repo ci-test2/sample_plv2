@@ -250,3 +250,10 @@ jobs:
       - IN: ed-manifest1newmftomf
       - IN: ed-dopts
       - IN: ed-ecscluster
+  
+  - name: ed-ecsdeploytodep
+    type: deploy
+    steps:
+      - IN: ed-ecsdeploymftomfbg
+    #  - IN: ed-dopts
+      - IN: ed-ecscluster
