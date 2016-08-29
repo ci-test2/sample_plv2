@@ -244,11 +244,9 @@ jobs:
       - TASK: managed
         deployMethod: upgrade
   
-  - name: ed-ecsdeploymftomf
+  - name: ed-ecsdeploymftomfbg
     type: deploy
     steps:
       - IN: ed-manifest1newmftomf
       - IN: ed-dopts
       - IN: ed-ecscluster
-      - TASK: managed
-        deployMethod: upgrade
