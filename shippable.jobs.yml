@@ -209,7 +209,7 @@ jobs:
   - name: ed-manifest1newmftomf
     type: manifest
     steps:
-     # - IN: ed-image1
+      - IN: ed-image1
       - IN: ed-manifest2driftking
       
   - name: ed-gkedeploybg
